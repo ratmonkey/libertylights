@@ -1,37 +1,8 @@
 --Liberty Lights by Ratmonkey--
 
-
-
----------------------------
--------lightblock base-----
----------------------------
-
-
-minetest.register_node("libertylights:baselight", {
-	description = "Lightblock",
-	drawtype = "glasslike",
-	tiles = {"base.png"},
-	groups = { snappy=3 },
-	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
-})
-
-minetest.register_craft({
-	output = "libertylights:baselight",
-	recipe = {
-		{ "moreblocks:super_glow_glass" , "" , "" }, 
-		{ "dye:white" , "default:steel_ingot" , "" }, 
-		{ "dye:white" , "default:steel_ingot" , "" }
-		}
-			})
-
-
-
----------------------
------lightblocks-----
----------------------
-
+-----------------------------------------------------------------------------------
+------------------------------------Lightblocks------------------------------------
+-----------------------------------------------------------------------------------
 
 	--------------------
 	--Black LightBlock--
@@ -50,7 +21,7 @@ minetest.register_node("libertylights:blacklight", {
 minetest.register_craft({
 	output = "libertylights:blacklight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:black" , "default:coal_lump" , "" }, 
 		{ "dye:white" , "default:steel_ingot" , "" }
 		}
@@ -75,7 +46,7 @@ minetest.register_node("libertylights:bluelight", {
 minetest.register_craft({
 	output = "libertylights:bluelight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:blue" , "default:coal_lump" , "" }, 
 		{ "dye:blue" , "default:silver_ingot" , "" }
 		}
@@ -99,7 +70,7 @@ minetest.register_node("libertylights:cyanlight", {
 minetest.register_craft({
 	output = "libertylights:cyanlight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:cyan" , "default:coal_lump" , "" }, 
 		{ "dye:white" , "default:diamond" , "" }
 		}
@@ -123,7 +94,7 @@ minetest.register_node("libertylights:magentalight", {
 minetest.register_craft({
 	output = "libertylights:magentalight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:magenta" , "default:coal_lump" , "" }, 
 		{ "dye:magenta" , "default:silver_ingot" , "" }
 		}
@@ -147,7 +118,7 @@ minetest.register_node("libertylights:orangelight", {
 minetest.register_craft({
 	output = "libertylights:orangelight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:orange" , "default:coal_lump" , "" }, 
 		{ "dye:orange" , "default:copper_ingot" , "" }
 		}
@@ -170,7 +141,7 @@ minetest.register_node("libertylights:redlight", {
 minetest.register_craft({
 	output = "libertylights:redlight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:red" , "default:coal_lump" , "" }, 
 		{ "dye:magenta" , "default:silver_ingot" , "" }
 		}
@@ -194,7 +165,7 @@ minetest.register_node("libertylights:violetlight", {
 minetest.register_craft({
 	output = "libertylights:violetlight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:violet" , "default:coal_lump" , "" }, 
 		{ "dye:violet" , "default:silver_ingot" , "" }
 		}
@@ -218,7 +189,7 @@ minetest.register_node("libertylights:whitelight", {
 minetest.register_craft({
 	output = "libertylights:whitelight 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:white" , "default:coal_lump" , "" }, 
 		{ "dye:grey" , "default:steel_ingot" , "" }
 		}
@@ -242,7 +213,7 @@ minetest.register_node("libertylights:yellowlight", {
 minetest.register_craft({
 	output = "libertylights:yellowlight",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:yellow" , "default:coal_lump" , "" }, 
 		{ "dye:white" , "default:gold_ingot" , "" }
 		}
@@ -268,7 +239,7 @@ minetest.register_node("libertylights:transbeige", {
 minetest.register_craft({
 	output = "libertylights:transbeige 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:yellow" , "default:gold_ingot" , "" }, 
 		{ "dye:white" , "default:steel_ingot" , "" }
 		}
@@ -294,7 +265,7 @@ minetest.register_node("libertylights:transred", {
 minetest.register_craft({
 	output = "libertylights:transred 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:red" , "default:iron_lump" , "" }, 
 		{ "dye:brown" , "default:iron_lump" , "" }
 		}
@@ -319,7 +290,7 @@ minetest.register_node("libertylights:transwhite", {
 minetest.register_craft({
 	output = "libertylights:transwhite 2",
 	recipe = {
-		{ "libertylights:baselight" , "libertylights:baselight" , "" }, 
+		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:white" , "default:steel_ingot" , "" }, 
 		{ "dye:white" , "default:steel_ingot" , "" }
 		}
