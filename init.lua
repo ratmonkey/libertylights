@@ -14,8 +14,7 @@ minetest.register_node("libertylights:blacklight", {
 	tiles = {"black.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -38,8 +37,7 @@ minetest.register_node("libertylights:bluelight", {
 	tiles = {"blue.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 
@@ -63,8 +61,7 @@ minetest.register_node("libertylights:cyanlight", {
 	tiles = {"cyan.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -87,8 +84,7 @@ minetest.register_node("libertylights:magentalight", {
 	tiles = {"magenta.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -111,8 +107,7 @@ minetest.register_node("libertylights:orangelight", {
 	tiles = {"orange.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -135,9 +130,9 @@ minetest.register_node("libertylights:redlight", {
 	tiles = {"red.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
+
 minetest.register_craft({
 	output = "libertylights:redlight 2",
 	recipe = {
@@ -158,8 +153,7 @@ minetest.register_node("libertylights:violetlight", {
 	tiles = {"violet.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -182,8 +176,7 @@ minetest.register_node("libertylights:whitelight", {
 	tiles = {"white.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -206,8 +199,7 @@ minetest.register_node("libertylights:yellowlight", {
 	tiles = {"yellow.png"},
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -226,14 +218,13 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transbeige", {
 	description = "Transarent Beige Lightblock",
-	drawtype = "glasslike",
+	drawtype = "glasslike_framed_optional",
 	tiles = {"transbeige.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -252,14 +243,13 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transred", {
 	description = "Transparent Red Lightblock",
-	drawtype = "glasslike",
+	drawtype = "glasslike_framed_optional",
 	tiles = {"transred.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -277,14 +267,13 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transwhite", {
 	description = " Transparent White Lightblock",
-	drawtype = "glasslike",
+	drawtype = "glasslike_framed_optional",
 	tiles = {"transwhite.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
@@ -302,14 +291,13 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transblack", {
 	description = " Transparent Black Lightblock",
-	drawtype = "glasslike",
+	drawtype = "glasslike_framed_optional",
 	tiles = {"transblack.png"},
 	paramtype = "light",
 	sunlight_propagates = true,
 	groups = { snappy=3 },
 	light_source = default.LIGHT_MAX,
-	sounds = default.node_sound_glass_defaults(),
-	walkable = true
+	sounds = sound_glass,
 })
 
 minetest.register_craft({
