@@ -295,3 +295,28 @@ minetest.register_craft({
 		{ "dye:white" , "default:steel_ingot" , "" }
 		}
 			})
+
+	--------------------------------
+	--Transparent Black LightBlock--
+	--------------------------------
+
+minetest.register_node("libertylights:transblack", {
+	description = " Transparent Black Lightblock",
+	drawtype = "glasslike",
+	tiles = {"transblack.png"},
+	paramtype = "light",
+	sunlight_propagates = true,
+	groups = { snappy=3 },
+	light_source = default.LIGHT_MAX,
+	sounds = default.node_sound_glass_defaults(),
+	walkable = true
+})
+
+minetest.register_craft({
+	output = "libertylights:transblack 2",
+	recipe = {
+		{ "default:meselamp" , "default:meselamp" , "" }, 
+		{ "dye:black" , "default:steel_ingot" , "" }, 
+		{ "dye:black" , "default:steel_ingot" , "" }
+		}
+			})
