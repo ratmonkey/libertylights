@@ -218,7 +218,7 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transbeige", {
 	description = "Transarent Beige Lightblock",
-	drawtype = "glasslike_framed_optional",
+	drawtype = "glasslike",
 	tiles = {"transbeige.png"},
 	paramtype = "light",
 	paramtype2 = "glasslikeliquidlevel",
@@ -244,7 +244,7 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transred", {
 	description = "Transparent Red Lightblock",
-	drawtype = "glasslike_framed_optional",
+	drawtype = "glasslike",
 	tiles = {"transred.png"},
 	paramtype = "light",
 	paramtype2 = "glasslikeliquidlevel",
@@ -269,7 +269,7 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transwhite", {
 	description = " Transparent White Lightblock",
-	drawtype = "glasslike_framed_optional",
+	drawtype = "glasslike",
 	tiles = {"transwhite.png"},
 	paramtype = "light",
 	paramtype2 = "glasslikeliquidlevel",
@@ -294,7 +294,7 @@ minetest.register_craft({
 
 minetest.register_node("libertylights:transblack", {
 	description = " Transparent Black Lightblock",
-	drawtype = "glasslike_framed_optional",
+	drawtype = "glasslike",
 	tiles = {"transblack.png"},
 	paramtype = "light",
 	paramtype2 = "glasslikeliquidlevel",
