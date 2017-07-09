@@ -50,6 +50,28 @@ minetest.register_craft({
 		}
 			})
 
+	--------------------
+	--Green LightBlock--
+	--------------------
+
+minetest.register_node("libertylights:greenlight", {
+	description = "Green Lightblock",
+	drawtype = "glasslike",
+	tiles = {"green.png"},
+	groups = { snappy=3 },
+	light_source = default.LIGHT_MAX,
+	sounds = sound_glass,
+})
+
+
+minetest.register_craft({
+	output = "libertylights:bluelight 2",
+	recipe = {
+		{ "default:meselamp" , "default:meselamp" , "" }, 
+		{ "dye:blue" , "default:coal_lump" , "" }, 
+		{ "dye:blue" , "default:silver_ingot" , "" }
+		}
+			})
 
 	----------------------
 	--Magenta LightBlock--
