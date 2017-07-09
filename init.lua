@@ -51,29 +51,6 @@ minetest.register_craft({
 			})
 
 
-	-------------------
-	--Cyan LightBlock--
-	-------------------
-
-minetest.register_node("libertylights:cyanlight", {
-	description = "Cyan Lightblock",
-	drawtype = "glasslike",
-	tiles = {"cyan.png"},
-	groups = { snappy=3 },
-	light_source = default.LIGHT_MAX,
-	sounds = sound_glass,
-})
-
-minetest.register_craft({
-	output = "libertylights:cyanlight 2",
-	recipe = {
-		{ "default:meselamp" , "default:meselamp" , "" }, 
-		{ "dye:cyan" , "default:coal_lump" , "" }, 
-		{ "dye:white" , "default:diamond" , "" }
-		}
-			})
-
-
 	----------------------
 	--Magenta LightBlock--
 	----------------------
@@ -139,29 +116,6 @@ minetest.register_craft({
 		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:red" , "default:coal_lump" , "" }, 
 		{ "dye:magenta" , "default:silver_ingot" , "" }
-		}
-			})
-
-
-	---------------------
-	--Violet LightBlock--
-	---------------------
-
-minetest.register_node("libertylights:violetlight", {
-	description = "Violent Lightblock",
-	drawtype = "glasslike",
-	tiles = {"violet.png"},
-	groups = { snappy=3 },
-	light_source = default.LIGHT_MAX,
-	sounds = sound_glass,
-})
-
-minetest.register_craft({
-	output = "libertylights:violetlight 2",
-	recipe = {
-		{ "default:meselamp" , "default:meselamp" , "" }, 
-		{ "dye:violet" , "default:coal_lump" , "" }, 
-		{ "dye:violet" , "default:silver_ingot" , "" }
 		}
 			})
 
