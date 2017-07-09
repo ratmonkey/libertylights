@@ -68,8 +68,8 @@ minetest.register_craft({
 	output = "libertylights:bluelight 2",
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
-		{ "dye:blue" , "default:coal_lump" , "" }, 
-		{ "dye:blue" , "default:silver_ingot" , "" }
+		{ "dye:green" , "default:coal_lump" , "" }, 
+		{ "dye:green" , "default:gold_ingot" , "" }
 		}
 			})
 
@@ -91,7 +91,7 @@ minetest.register_craft({
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:magenta" , "default:coal_lump" , "" }, 
-		{ "dye:magenta" , "default:silver_ingot" , "" }
+		{ "dye:magenta" , "default:gold_ingot" , "" }
 		}
 			})
 
@@ -214,14 +214,14 @@ minetest.register_craft({
 			})
 
 
-	------------------------------
-	--Transparent Red LightBlock--
-	------------------------------
+	--------------------------------
+	--Transparent Brown LightBlock--
+	--------------------------------
 
-minetest.register_node("libertylights:transred", {
-	description = "Transparent Red Lightblock",
+minetest.register_node("libertylights:transbrown", {
+	description = "Transparent Brown Lightblock",
 	drawtype = "glasslike",
-	tiles = {"transred.png"},
+	tiles = {"transbrown.png"},
 	paramtype = "light",
 	paramtype2 = "glasslikeliquidlevel",
 	sunlight_propagates = true,
@@ -234,7 +234,7 @@ minetest.register_craft({
 	output = "libertylights:transred 2",
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
-		{ "dye:red" , "default:iron_lump" , "" }, 
+		{ "dye:brown" , "default:iron_lump" , "" }, 
 		{ "dye:brown" , "default:iron_lump" , "" }
 		}
 			})
@@ -288,3 +288,4 @@ minetest.register_craft({
 		{ "dye:black" , "default:steel_ingot" , "" }
 		}
 			})
+
