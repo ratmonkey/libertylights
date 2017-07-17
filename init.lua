@@ -46,7 +46,7 @@ minetest.register_craft({
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:blue" , "default:coal_lump" , "" }, 
-		{ "dye:blue" , "default:silver_ingot" , "" }
+		{ "dye:blue" , "default:steel_ingot" , "" }
 		}
 			})
 
@@ -137,7 +137,7 @@ minetest.register_craft({
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:red" , "default:coal_lump" , "" }, 
-		{ "dye:magenta" , "default:silver_ingot" , "" }
+		{ "dye:magenta" , "default:steel_ingot" , "" }
 		}
 			})
 
