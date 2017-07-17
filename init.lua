@@ -65,7 +65,7 @@ minetest.register_node("libertylights:greenlight", {
 
 
 minetest.register_craft({
-	output = "libertylights:bluelight 2",
+	output = "libertylights:greenlight 2",
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:green" , "default:coal_lump" , "" }, 
