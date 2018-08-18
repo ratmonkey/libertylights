@@ -231,7 +231,7 @@ minetest.register_node("libertylights:transbrown", {
 })
 
 minetest.register_craft({
-	output = "libertylights:transred 2",
+	output = "libertylights:transbrown 2",
 	recipe = {
 		{ "default:meselamp" , "default:meselamp" , "" }, 
 		{ "dye:brown" , "default:iron_lump" , "" }, 
